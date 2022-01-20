@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    
+    <!-- This is a link that i am using to access the google font size for fonts using their CDN with different font textures.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    
+    <!-- this is for iconscout icon cdn for specific types of icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+    <!-- This style sheet will be in full control of the websites theme, be it light or dark -->
+    <link rel="stylesheet" id="style_theme" href="./css/themes/default.css">
+    
+    <!-- This is the main styles css sheet for the website and this will be responsible for rendering the basic styling of the sites -->
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <!-- This is a link that i am using to access font awsome icons for their icons and logos through their CDN. -->
+    <script src="https://kit.fontawesome.com/e3c789a388.js" crossorigin="anonymous"></script>
+    
+    <!-- this is for our company logo to appear in the header -->
+    <link rel="shortcut icon" type="image" href="./images/bitcoin-brands.svg">
+</head>
+<body>
+    <nav class="nav_header">
+    
+        <a href="/" class="brand">
+            <i class="fab fa-bitcoin"></i>
+            <h3>Crypto Finance</h3>
+        </a>
+    
+        <ul class="header_nav_links">
+            <a href="/" class="nav_link active">Home</a>
+            <a href="/newsReleases" class="nav_link">News releases</a>
+            <a href="/faq" class="nav_link">Faq</a>
+            <a href="/affiliates" class="nav_link">affiliates</a>
+            <a href="/about" class="nav_link">about</a>
+            <a href="/paymentproof" class="nav_link">payment proof</a>
+        </ul>
+    
+        <span class="user_validation">
+            <button class="btn btn_sign_up">sign up</button>
+            <button class="btn btn_login">Login</button>
+        </span>
+    
+        <button class="btn toggle_dark_mode">
+            <span class="toggle-control"></span>
+            <i class="fas fa-sun " id="default"></i>
+            <i class="fas fa-moon" id="dark"></i>
+        </button>
+    
+    </nav>
+
+
+   
+
+    <footer>
+    
+        <div class="footer_one">
+            <ul class="footer_links">
+                <a href="#" class="footer_link">home</a>
+                <a href="#" class="footer_link">New releases</a>
+                <a href="#" class="footer_link">faq</a>
+                <a href="#" class="footer_link">affiliates</a>
+                <a href="#" class="footer_link">about</a>
+                <a href="#" class="footer_link">payment proof</a>
+            </ul>
+            <div class="footer_icons">
+                <img src="./images/bitcoin-svgrepo-com.svg" alt="">
+                <img src="./images/litecoin-svgrepo-com.svg" alt="">
+                <img src="./images/doge-svgrepo-com.svg" alt="">
+                <img src="./images/ethereum-svgrepo-com.svg" alt="">
+            </div>
+            <form class="contact">
+                <h3>Let us hear from you</h3>
+                <label for="fn">
+                    Full Name:
+                    <input type="text" id="fn" name="userfullname" placeholder="Full Name">
+                </label>
+    
+                <textarea name="user input" id="userinput" cols="30" rows="10" placeholder="Your messase here"></textarea>
+    
+                <button type="button" class="submit_btn btn">send</button>
+            </form>
+        </div>
+    
+        <div class="footer_two">© COPYRIGHT 2021. CRYPTO FINANCE. ALL RIGHTS RESERVED</div>
+    </footer>
+
+    <script src="./javaScript/utils.js"></script>
+    
+</body>
+</html>
