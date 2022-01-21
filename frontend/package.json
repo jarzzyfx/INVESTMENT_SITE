@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server src --verbose",
+    "start": "live-server src/index.html --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

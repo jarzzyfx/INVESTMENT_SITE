@@ -48,7 +48,7 @@ export default class extends HomeAbstractView {
 </section>
 
 
-            <a href="template.html" > test </a>
+            <a href="dashboard.html" > test </a>
 
         <section class="section_two">
             <div class="proof_block sec_two_pr_bl">

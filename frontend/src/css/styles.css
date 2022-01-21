@@ -1047,7 +1047,7 @@ footer {
 .news_feed {
   width: 100%;
   padding: var(--padding);
-  padding-top: 5rem;
+  padding-top: 6rem;
   display: grid;
   grid-template-columns: 30% 1fr;
   grid-gap: var(--ms-step-3);
@@ -1213,7 +1213,7 @@ footer {
 .news_post {
   width: 100%;
   padding: var(--padding);
-  padding-top: 4rem;
+  padding-top: 6rem;
   border-top: 2px solid var(--hover-nav);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1433,7 +1433,7 @@ footer {
 .about {
   width: 100%;
   padding: var(--padding);
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 
 .company_img {
@@ -1816,7 +1816,7 @@ footer {
 .user_support {
   padding: var(--padding);
   display: flex;
-  padding-top: 5rem;
+  padding-top: 6rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -1960,7 +1960,7 @@ footer {
 #affiliate {
   width: 100%;
   padding: var(--padding);
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 
 #affiliate h2 {
