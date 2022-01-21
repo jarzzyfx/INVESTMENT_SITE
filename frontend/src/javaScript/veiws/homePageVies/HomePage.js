@@ -7,37 +7,47 @@ export default class extends HomeAbstractView {
         this.get_HTML_View()
     }
 
+    
+
     async get_HTML_View(){
         return` 
-         <section id="/" class="hero_section ">
-            <img src="./images/Crypto portfolio-pana.svg" class="blub" alt="">
-            <div class="hero_text">
-                <h1>An easy,  safe and secure way to buy crypto currencies.</h1> 
+         
+<section id="/" class="hero_section ">
+    
+    <div class="hero_text">
+        <h1>An easy, safe and secure way to buy crypto currencies.</h1>
 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus tenetur, alias laboriosam illum saepe sapiente ducimus odit facilis repellendus ratione quibusdam aut reiciendis quaerat eos quae labore! Ipsum, dignissimos?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus tenetur, alias laboriosam illum
+            saepe sapiente ducimus odit facilis repellendus ratione quibusdam aut reiciendis quaerat eos quae labore!
+            Ipsum, dignissimos?</p>
 
-                <button class="btn learn">Learn more</button>
+        <button class="btn learn">Learn more</button>
 
-                
 
-                <div class="currency_exchange get_BTC">
-                    <div class="currency_update etherum">
-                        <h4 class="currency_name ">1 ETH</h4>
-                        <h3 class="currency_price "></h3>
-                    </div>
-                    <div class="currency_update bitcoin">
-                        <h4 class="currency_name ">1 BTC</h4>
-                        <h3 class="currency_price "></h3>
-                    </div>
-                    <div class="currency_update doge">
-                        <h4 class="currency_name ">1 LITE</h4>
-                        <h3 class="currency_price gain"></h3>
-                    </div>
-                </div>
+
+        <div class="currency_exchange get_BTC">
+            <div class="currency_update etherum">
+                <h4 class="currency_name ">1 ETH</h4>
+                <h3 class="currency_price "></h3>
             </div>
+            <div class="currency_update bitcoin">
+                <h4 class="currency_name ">1 BTC</h4>
+                <h3 class="currency_price "></h3>
+            </div>
+            <div class="currency_update doge">
+                <h4 class="currency_name ">1 LITE</h4>
+                <h3 class="currency_price gain"></h3>
+            </div>
+        </div>
+    </div>
 
-            
-        </section>
+    <div class="hero_img"><img src="./images/Crypto portfolio-pana.svg" class="blub" alt=""></div>
+    
+
+
+</section>
+
+
             <a href="template.html" > test </a>
 
         <section class="section_two">

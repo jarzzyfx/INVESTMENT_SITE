@@ -182,9 +182,27 @@ const pre_loader = (item) => {
     window.addEventListener('load', ()=>  item.classList.add('hidden'))
 }
 
+const responsive_nav = () => {
+
+    const handbugger = document.querySelector('.handbugger');
+    const right_nav = document.querySelector('.nav_right');
+
+    document.querySelectorAll('.nav_link').forEach(link => {
+        link.addEventListener('click', e => {
+            handbugger.classList.remove('active');
+        right_nav.classList.remove('active');
+        })
+    })
+
+    handbugger.addEventListener('click', () => {
+        handbugger.classList.toggle('active');
+        right_nav.classList.toggle('active');
+    })
+}
 
 
 
+responsive_nav()
 pre_loader(loader)
 online_Detector()
 crypto_price_render()
